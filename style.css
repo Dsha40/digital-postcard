@@ -1,0 +1,84 @@
+body{
+    font-family: 'Pacifico', cursive; 
+    background-color: black;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+}
+
+#margin{
+    margin-top: 80px;
+    width: 45%;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+.postcard{
+    margin-left: 30px;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.header{
+    display: flex;
+    grid-column-start: 0;
+}
+
+.center{
+    display: flex;
+    margin-top: 30px;
+}
+
+.foots{
+    display: flex;
+    margin-top: 40px;
+}
+
+.forgeeks{
+    margin-left: 250px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.foots{
+    width: 250px;
+}
+
+
+.send{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 80px;
+    width: 180px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+
+input{
+    border: none;
+    border-bottom: lightgrey solid 1px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    margin-top: 20px;
+}
